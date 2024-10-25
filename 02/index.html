@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+  <title> HEY PHONSYR</title>
+  <style type="text/css">
+    .html{
+      background-color: #000000;
+    }
+    .box{
+      position: relative;
+      left: 10px;
+      top: 15px;
+      width: 150px;
+      height: 150px;
+      background: aquamarine;
+      animation-name: minhaanimacao;
+      animation-duration: 5s;
+      animation-delay: 2s;
+      animation-iteration-count: 3;
+    }
+    .box:hover{
+      border: #3e6668;
+      transition: border 3s 2s;
+    }
+    @keyframes minhaanimacao{
+      from{
+        left: 10px;
+      }
+      to{
+        left: 70px;
+        background: hsl(308, 60%, 81%);
+        border-radius: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box"></div>
+</body>
+
+
+</html>
