@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script>
+        function minhafuncao(arg1,arg2){
+
+            var soma =  arg1 + arg2
+            var msg = 'A soma é igual a: '
+            alert ( msg +soma);
+        }
+        function escreve(arg){
+            document.write(arg)
+        }
+        function carregarimg1(){
+            alert('Lana del Rey')
+            document.getElementById('img').setAttribute("src" , "https://images.squarespace-cdn.com/content/v1/582ff1a546c3c4d86173e700/1500983807843-ES9FAVQR8MZSUN7GY9OS/image-asset.jpeg" )
+            document.getElementById("mudar-imagem").setAttribute("onclick", "carregarimg2()")
+        }
+        function carregarimg2(){
+            alert('Frank Ocean')
+            document.getElementById('img').setAttribute("src" , "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526" )
+            document.getElementById("mudar-imagem").setAttribute("onclick", "carregarimg1()")
+        }
+    </script>
+</head>
+
+<body>
+   
+    <H1> Javascript </H1>
+    <button onclick="minhafuncao(190,390)"> Clique</button>
+    <button onclick="escreve('<h1> well my boyfriend is so pretty cool </h1>')"> Escreve</button>
+    <button id="mudar-imagem" onclick="carregarimg1()">Trocar imagem</button>
+    <div id="phonsy" >
+        <img id="img" src="https://lastfm.freetls.fastly.net/i/u/ar0/60941f8b9f40fca0adb44f26ba9f1ed6.jpg" alt="">
+    </div>
+
+</body>
+</html>y
