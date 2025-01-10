@@ -1,4 +1,3 @@
-#VARIAVEIS E TIPOS BASICOS
 nome = "maria"
 idade = 25
 altura = 1.68
@@ -14,7 +13,6 @@ num2 = float(input("Digite o segundo número: "))
 soma = num1 + num2 
 print("A soma é:", soma)
 
-#NUMERO IMPAR OU PAR
 numero = int(input("Digite um numero: "))
 if numero % 2 == 0:
     print("O numero é par")
