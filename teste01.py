@@ -1,12 +1,33 @@
-nome = input("Qual é o seu nome? ")
-idade = input("Quantos anos você tem? ")
-print(f"Olá, {nome}! Você tem {idade} anos.")
+nome = "maria"
+idade = 25
+altura = 1.68
+esta_estudando = True
 
-print("_______________________")
+print(nome, idade, altura, esta_estudando)
+nome = input("DIgite seu nome: ")
+print (f"Ola, {nome} Seja bem vindo!" )
 
+#Soma de dois números
 num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
-print(f"Soma: {num1 + num2}")
-print(f"Diferença: {num1 - num2}")
-print(f"Produto: {num1 * num2}")
+num2 = float(input("Digite o segundo número: ")) 
+soma = num1 + num2 
+print("A soma é:", soma)
 
+numero = int(input("Digite um numero: "))
+if numero % 2 == 0:
+    print("O numero é par")
+else:
+    print("O numero é impar")
+
+
+nome = input("Me diga seu nome: ")
+idade = int(input("Agora sua idade: "))
+
+num1 = float(input("Digite um numero: "))
+num2 = float(input("Digite outro numero: "))
+soma = num1+num2
+diferenca = num1-num2
+produto = num1*num2
+print(f"A soma é {soma}.")
+print(f"A difrença é {diferenca}")
+print(f"O produto é {produto}")
